@@ -1,0 +1,66 @@
+#header {
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    color: hsl(0, 0%, 0%);
+    margin: auto;
+    padding: 10px;
+    clear:both;
+}
+#name {
+    width: 100px;
+    transition: all 0.3s ease;
+}
+#name:focus {
+    width: 300px;
+    outline: none;
+}
+#main-nav {
+    background-color: blanchedalmond;
+    text-align: left;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+#main-nav li a {
+    display: block; 
+    padding: 10px 20px;    
+    color: black;
+}
+#main-nav li a:hover {
+    background-color: #7c7c7c;
+    color: white;
+}
+
+.content-box {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#rules {
+    background-color: rgb(224, 254, 193);
+    float: right;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 10px;;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#rules:hover {
+    background-color: darkgray;
+}
